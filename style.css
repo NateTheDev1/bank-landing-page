@@ -218,3 +218,33 @@ footer {
 .footer-hr hr {
   border-color: hsl(0, 0%, 100%);
 }
+
+.footer-bottom {
+  padding-bottom: 5%;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.link-column {
+  width: 20%;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-column p {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: hsl(273, 4%, 51%);
+  text-transform: uppercase;
+}
+
+.link-column a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
