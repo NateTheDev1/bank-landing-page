@@ -9,17 +9,13 @@ body {
   font-size: 16px;
   min-width: 1440px;
   margin: 0;
-  width: 100vw;
-  border: 1px solid blue;
 }
 
 header {
   width: 100%;
-  border: 1px solid red;
 }
 
 .header {
-  border: 1px solid red;
   width: 100%;
   color: black;
   height: 75px;
@@ -54,4 +50,67 @@ header {
   height: 50px;
   background-color: white;
   border: 1px solid black;
+}
+
+.intro {
+  border: 1px solid black;
+  width: 100%;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+.intro-content {
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.intro-content div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-content h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.intro-content p {
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.intro-content button {
+  margin-top: 2%;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  width: 175px;
+  height: 50px;
+  border: 1px solid white;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.intro-content img {
+  width: 40%;
+  height: 125%;
+}
+
+.intro-content div hr {
+  width: 70%;
+}
+
+.intro-content div img {
+  width: 15%;
+  height: 50%;
+  position: absolute;
+  transform: translate(-160%, 70%);
 }
