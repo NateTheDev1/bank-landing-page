@@ -100,8 +100,9 @@ header {
 }
 
 .intro-content img {
-  width: 40%;
-  height: 125%;
+  width: 35%;
+  height: auto;
+  padding-bottom: 2%;
 }
 
 .intro-content div hr {
@@ -165,6 +166,7 @@ header {
   padding-left: 20%;
   padding-right: 20%;
   height: 200px;
+  width: 100%;
 }
 
 .bottom button {
