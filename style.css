@@ -114,3 +114,73 @@ header {
   position: absolute;
   transform: translate(-160%, 70%);
 }
+
+.middle {
+  background-color: white;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.middle .perks {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.box {
+  width: 25%;
+}
+
+.box p {
+  color: hsl(273, 4%, 51%);
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+}
+
+.box h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.bottom {
+  padding-left: 20%;
+  padding-right: 15%;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 200px;
+}
+
+.bottom button {
+  margin-top: 2%;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  width: 175px;
+  height: 50px;
+  border: 1px solid white;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bottom h2 {
+  width: 36%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
