@@ -122,6 +122,7 @@ header {
   flex-direction: column;
   padding-left: 20%;
   padding-right: 15%;
+  align-items: flex-start;
 }
 
 .middle .perks {
@@ -161,8 +162,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   height: 200px;
 }
 
@@ -179,8 +180,41 @@ header {
 }
 
 .bottom h2 {
-  width: 36%;
+  width: 47%;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 2.5rem;
+}
+
+footer {
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 1%;
+  margin-top: 8%;
+}
+
+.footer-top {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  padding-left: 20%;
+  align-items: center;
+  padding-right: 15%;
+}
+
+.social {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-hr {
+  padding-left: 20%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-right: 15%;
+}
+
+.footer-hr hr {
+  border-color: hsl(0, 0%, 100%);
 }
